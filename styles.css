@@ -115,3 +115,24 @@ img {
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
+@media (max-width: 650px) {
+    
+    body {
+        background-color: white;
+    }
+
+    .container {
+        padding: 0;
+        border-radius: 0;
+    }
+
+    .box {
+        padding: 30px;
+    }
+
+    img {
+        margin: 0;
+        border-radius: 0;
+    }
+}
